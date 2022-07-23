@@ -1,0 +1,54 @@
+.popular-container{
+    width:65%;
+    margin:auto;
+    padding:0rem 1rem;
+
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 3.5rem;
+    margin-bottom:2rem;
+  }
+
+.dish {
+    display: inline-block;
+    border:2px solid black;
+    border-radius: 50%;
+    height:5rem;
+    width: 5rem;
+    background-image: url('https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Best-Mutton-Biryani-Recipe.jpg');
+    background-size: cover;
+    
+  }
+
+  @media screen and (min-width:0px) and (max-width:767px)
+{
+  .popular-container{
+    width:100%;
+    margin:auto;
+    padding:0rem 1rem;
+
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 1rem;
+    margin-bottom:1rem;
+  }
+
+.dish {
+    display: inline-block;
+    border:2px solid black;
+    border-radius: 50%;
+    height:4rem;
+    width: 4rem;
+    background-image: url('https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Best-Mutton-Biryani-Recipe.jpg');
+    background-size: cover;
+    
+  }
+}

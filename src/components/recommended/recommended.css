@@ -1,0 +1,44 @@
+.recommended-container{
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:65%;
+}
+
+.recommended-menu{
+    background-color: black;
+    color:white;
+    width:5rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    margin-right:3rem;
+
+}
+
+@media screen and (min-width:0px) and (max-width:767px)
+{
+
+    .recommended-container{
+        margin:auto;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        padding-left: 1rem;
+    }
+    
+    .recommended-menu{
+        background-color: black;
+        color:white;
+        width:4rem;
+        text-align: center;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        font-weight: bold;
+        margin-right:3rem;
+    
+    }
+}

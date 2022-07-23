@@ -1,0 +1,143 @@
+.container-ingredients{
+    margin:auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding:1rem 1rem;
+}
+
+.back-btn{
+    margin:auto;
+    width:65%;
+}
+
+.title
+{
+    margin:auto;
+    width:65%;
+    padding-top:1rem;
+    padding-left: 1rem;
+}
+
+.para{
+    width:55%;
+}
+
+.mughlai{
+    margin:auto;
+    width:65%;
+    padding-top:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-title{
+    margin-right: 1rem;
+}
+
+.ingredients{
+    margin:auto;
+    width:65%;
+}
+
+.vegetables{
+    margin:auto;
+    width:65%;
+}
+
+.veginside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.spices{
+    padding-top:1rem;
+    margin:auto;
+    width:65%;
+}
+
+.appliances{
+    padding-top:1rem;
+    margin:auto;
+    width:65%;
+}
+
+.appliances2{
+    display: flex;
+}
+
+@media screen and (min-width:0px) and (max-width:767px)
+{
+
+
+    .container-ingredients{
+        margin:auto;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        padding:1rem 1rem;
+    }
+    
+    .back-btn{
+        margin:auto;
+        width:100%;
+    }
+    
+    .title
+    {
+        margin:auto;
+        width:100%;
+        padding-top:1rem;
+        padding-left: 1rem;
+    }
+    
+    .para{
+        width:100%;
+    }
+    
+    .mughlai{
+        margin:auto;
+        width:100%;
+        padding-top:1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .img-title{
+        margin-right: 1rem;
+    }
+    
+    .ingredients{
+        margin:auto;
+        width:100%;
+    }
+    
+    .vegetables{
+        margin:auto;
+        width:100%;
+    }
+    
+    .veginside{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .spices{
+        padding-top:1rem;
+        margin:auto;
+        width:100%;
+    }
+    
+    .appliances{
+        padding-top:1rem;
+        margin:auto;
+        width:100%;
+    }
+    
+    .appliances2{
+        display: flex;
+    }
+
+}

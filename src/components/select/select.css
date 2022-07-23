@@ -1,0 +1,31 @@
+.select-container{
+    margin:auto;
+    width:65%;
+    display: flex;
+    /* border:2px solid green; */
+    padding:1rem 1rem;
+}
+
+.header-select{
+    margin-left:2rem
+}
+
+@media screen and (min-width:0px) and (max-width:767px)
+{
+    .select-container{
+        margin:auto;
+        width:100%;
+        display: flex;
+        /* border:2px solid green; */
+        padding:1rem 1rem;
+    }
+    .dishes{
+        margin-top: 0.3rem;
+        font-size: 20px;
+    }
+
+    .back-select{
+        height:8px;
+        width:8px;
+    }
+}

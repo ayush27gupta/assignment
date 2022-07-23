@@ -1,0 +1,21 @@
+.panel-container{
+    background-color: black;
+    height: 2.5rem;
+    width:65%;
+    margin:auto;
+    padding: 0rem 1rem;
+    position:relative;
+    z-index: -2;
+}
+@media screen and (min-width:0px) and (max-width:767px)
+{
+    .panel-container{
+        background-color: black;
+        height: 2.5rem;
+        width:100%;
+        margin:auto;
+        padding: 0rem 1rem;
+        position:relative;
+        z-index: -2;
+    }
+}

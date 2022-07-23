@@ -1,0 +1,38 @@
+.notif-container{
+    width:65%;
+    margin:auto;
+    padding:1rem;
+    /* border: 2px solid red; */
+    
+}
+.main-notif{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-notif{
+    display: flex;
+    justify-content: space-around;
+    gap:1rem ;
+}
+
+@media screen and (min-width:0px) and (max-width:767px)
+{
+    .notif-container{
+        width:100%;
+        margin:auto;
+        padding:1rem;
+        /* border: 2px solid red; */
+        
+    }
+    .main-notif{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .right-notif{
+        display: flex;
+        justify-content: space-around;
+        gap:1rem ;
+    }
+}
