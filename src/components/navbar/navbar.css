@@ -1,0 +1,34 @@
+.navbar-container {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-text {
+  color: #6b7280;
+  margin-left: 1rem;
+}
+
+.nav-switch {
+  color: #0e9f6e;
+}
+
+.custom-switch {
+  background-color: #0e9f6e !important;
+  border-color: #0e9f6e !important;
+}
+
+.custom-switch:checked {
+  background-color: #0e9f6e !important;
+}
+
+.custom-switch::before {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.nav-user {
+  margin-left: 1rem;
+}

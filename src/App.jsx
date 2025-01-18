@@ -1,14 +1,25 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import Searchbar from "./components/searchbar/Searchbar";
+import Sidebar from "./components/sidebar/Sidebar";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>di</div>
+      <div className="app-container">
+        <Navbar />
+        <div className="main-layout">
+          <Sidebar />
+          <div className="content">
+            <Searchbar />
+          </div>
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
